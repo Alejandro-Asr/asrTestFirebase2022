@@ -1,6 +1,7 @@
 import React from 'react';
 import { SafeAreaView } from 'react-native';
-import { InsertDataFireBase } from './src/components/InsertDataFireBase';
+import { LoginFireBaseEmail } from './src/components/LoginFireBaseEmail';
+// import { InsertDataFireBase } from './src/components/InsertDataFireBase';
 // import { HelloFireBase } from './src/components/HelloFireBase';
 // import { LoadDataFireBaseRealTime } from './src/components/LoadDataFireBaseRealTime';
 
@@ -10,7 +11,8 @@ export const App = () => {
     <SafeAreaView>
       {/* <HelloFireBase /> */}
       {/* <LoadDataFireBaseRealTime /> */}
-      <InsertDataFireBase />
+      {/* <InsertDataFireBase /> */}
+      <LoginFireBaseEmail />
     </SafeAreaView>
   );
 };
